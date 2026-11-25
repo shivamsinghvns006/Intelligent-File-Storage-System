@@ -4,6 +4,13 @@
 !.env.example
 !.env.*.example
 !.env.template
+**/secrets.json
+**/.aws/credentials
+**/.aws/config
+**/id_rsa
+**/id_ed25519
+**/id_ecdsa
+**/id_dsa
 
 # Python
 __pycache__/
